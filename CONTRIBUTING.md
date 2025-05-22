@@ -1,7 +1,4 @@
-<div align="center">
-   <h1>🤝 Contributing</h1>
-   <p>✨ Thank you for your interest in making this project better!</p>
-</div>
+![Header](https://github.com/k4itrun/.github/assets/103044629/92715974-a12e-4d2b-a8e9-bddcf227ba9f)
 
 <!-- prettier-ignore -->
 > [!NOTE] 

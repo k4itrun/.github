@@ -1,7 +1,4 @@
-<div align="center">
-  <h1>🤝 Community Code of Conduct</h1>
-  <p>We want everyone to feel welcome — respect and kindness are the foundation of our community.</p>
-</div>
+![Header](https://github.com/k4itrun/.github/assets/103044629/960d56fd-60dd-45bd-908c-9226737a4ee9)
 
 ## Our Commitment
 
