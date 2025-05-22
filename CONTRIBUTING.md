@@ -25,7 +25,7 @@ Jumping into a **new project** can seem daunting, but our process is straightfor
 
 First, head over to the original repository on GitHub and hit that **Fork** button. Think of it like making your own copy of grandma’s secret cookie recipe — you get to experiment without messing up the original masterpiece.
 
-![Forking repository on Github](https://github.com/k4itrun/k4itrun/assets/103044629/376b552a-bbed-4254-b105-aded0beb60b4)
+![Forking repository on Github](https://github.com/k4itrun/.github/assets/103044629/59aca8e7-bf3f-49fc-8cc1-ceec2f97939a)
 
 Then, clone your fork to your local machine to start cooking in your own kitchen:
 
