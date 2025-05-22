@@ -124,20 +124,30 @@ For full details on what your PR should include, (see [Pull Request Checklist](#
 
 ## ♻️ Coding Standards
 
-Keeping code **clean, readable, and consistent** helps everyone collaborate.
+Writing good code isn’t just about making it run — it’s about making it understandable, maintainable, and consistent. These standards help keep the project clean, readable, and easy to work with (even months later when you’ve forgotten what “final_final_finalFix2.js” was supposed to do).
 
 ### 1. ✍️ Use Clear, Meaningful Commit Messages
 
 We adhere to the **[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)** specification alongside **[Gitmoji](https://gitmoji.dev/)** guidelines to include **meaningful emojis** in every commit. This **standardized approach** keeps our commit history **clean, consistent,** and ready for **automation tasks** like generating **changelogs** and managing **versioning**.
 
-- **Examples:**
-  ```bash
-  ✨ feat: add search feature to user dashboard
-  🐛 fix: resolve crash on login with empty password
-  📝 docs: update README with new installation steps
-  ```
+> [!NOTE]
+> Your commit messages should clearly describe what your changes do and why.
+>
+> **Examples:**
+>
+> ```bash
+> ✨ feat: add search feature to user dashboard
+> 🐛 fix: resolve crash on login with empty password
+> 📝 docs: update README with new installation steps
+> ```
 
-**Avoid vague messages** like `update file` or `fix stuff`.
+<!-- prettier-ignore -->
+> [!CAUTION] 
+> **Avoid vague messages** like `update file` or `fix stuff`.
+
+<!-- prettier-ignore-end -->
+
+This helps reviewers (and your future self) understand the purpose behind each change without having to dig through the code.
 
 ### 2. 🧹 Maintain Code Consistency
 
@@ -151,10 +161,18 @@ Code should be **easy to read and understand** without needing a decoder ring. A
 
 If a new developer (or your **sleep-deprived teammate**) can’t understand your code within **30 seconds**, it needs **simplification**.
 
+### 4. 🧭 Follow the existing project style
+
+When unsure how to structure something, check how similar features are implemented elsewhere in the codebase. Consistency is more important than personal style.
+
+> [!NOTE]
+> If you think there’s a better way to do something, propose it in a pull request or discussion — but don’t introduce a new pattern just for fun.
+
 ### 4. 📝 Add Documentation Where Needed
 
-- If your code contains **non-obvious logic or important decisions**, add comments explaining "**why**" (not just "**what**").
-- **Update documentation files** (like README) if your changes affect usage or public APIs.
+If your code contains **non-obvious logic or important decisions**, add comments explaining "**why**" (not just "**what**").
+
+**Update documentation files** (like README) if your changes affect usage or public APIs.
 
 ---
 
@@ -184,7 +202,7 @@ Steps for maintainers or reviewers to test your changes.
 <!-- prettier-ignore -->
 > [!NOTE]
 > **Example:**  
-> Closes #42
+> Closes [#42](https://www.youtube.com/shorts/OdEKu4WXs5c)
 
 <!-- prettier-ignore-end -->
 
