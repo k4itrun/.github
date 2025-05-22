@@ -6,4 +6,4 @@ We take security seriously and appreciate your help in keeping our project and u
 
 To confidentially disclose a security issue, please email us at: <tsx@billoneta.xyz>
 
-Thank you for contributing to a safer open source ecosystem!
+❤ Thank you for contributing to a safer open source ecosystem!

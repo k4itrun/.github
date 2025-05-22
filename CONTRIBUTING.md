@@ -169,17 +169,17 @@ Before submitting your pull request, please ensure you:
 - [ ] **Updated documentation** as needed.
 - [ ] **Kept the branch up-to-date** with the latest main branch (`git pull upstream main`).
 
-### Example Pull Request Structure
+### 📝 Example Pull Request Structure
 
-#### Summary
+#### ✨ Summary
 
 A brief explanation of what this PR does and why.
 
-#### How to Test
+#### 🧪 How to Test
 
 Steps for maintainers or reviewers to test your changes.
 
-#### Related Issues
+#### 🔗 Related Issues
 
 <!-- prettier-ignore -->
 > [!NOTE]
@@ -188,7 +188,7 @@ Steps for maintainers or reviewers to test your changes.
 
 <!-- prettier-ignore-end -->
 
-#### Additional Notes
+#### 💡 Additional Notes
 
 Anything else reviewers should know.
 
