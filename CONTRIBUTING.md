@@ -9,9 +9,43 @@
 <details>
   <summary>📚 <strong>Table of Contents</strong></summary>
   <ol>
-    <li><a href="#-getting-started"><strong>Getting Started</strong></a></li>
-    <li><a href="#%EF%B8%8F-coding-standards"><strong>Coding Standards</strong></a></li>
-    <li><a href="#-pull-request-checklist"><strong>Pull Request Checklist</strong></a></li>
+    <li>
+      <a href="#-getting-started"><strong>Getting Started</strong></a>
+      <ul>
+        <li><a href="#1--fork-and-clone"><strong>Fork and clone</strong></a></li>
+        <li><a href="#2--add-upstream-remote"><strong>Set upstream remote</strong></a></li>
+        <li><a href="#3--create-a-feature-or-fix-branch"><strong>Create new branch</strong></a></li>
+        <li><a href="#4--make-your-changes"><strong>Make Your Changes</strong></a></li>
+        <li><a href="#5--push-and-commit"><strong>Push Your Changes</strong></a></li>
+        <li><a href="#6--open-a-pull-request"><strong>Create a Pull Request</strong></a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#%EF%B8%8F-coding-standards"><strong>Coding Standards</strong></a>
+      <ul>
+        <li><a href="#1-%EF%B8%8F-use-clear-meaningful-commit-messages"><strong>Commit Messages</strong></a></li>
+        <li><a href="#2--maintain-code-consistency"><strong>Code Consistency</strong></a></li>
+        <li><a href="#3--focus-on-readability"><strong>Focus on Readability</strong></a></li>
+        <li><a href="#4--follow-the-existing-project-style"><strong>Follow Style</strong></a></li>
+        <li><a href="#5--add-documentation-where-needed"><strong>Add Documentation</strong></a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#-pull-request-checklist"><strong>Pull Request Checklist</strong></a>
+      <ul>
+        <li>
+          <a href="#-example-pull-request-structure"><strong>Example Pull Request</strong></a>
+          <ul>
+            <li><a href="#summary"><strong>Summary</strong></a></li>
+            <li><a href="#how-to-test"><strong>How to Test</strong></a></li>
+            <li><a href="#related-issues"><strong>Related Issues</strong></a></li>
+            <li><a href="#additional-notes"><strong>Additional Notes</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#-thank-you-for-helping-us-improve-this-project"><strong>Thank</strong></a></li>
+    <li><a href="#-license"><strong>License</strong></a></li>
   </ol>
 </details>
 
@@ -135,11 +169,9 @@ We adhere to the **[Conventional Commits](https://www.conventionalcommits.org/en
 >
 > **Examples:**
 >
-> ```bash
-> ✨ feat: add search feature to user dashboard
-> 🐛 fix: resolve crash on login with empty password
-> 📝 docs: update README with new installation steps
-> ```
+> - **✨ feat: add search feature to user dashboard**
+> - **🐛 fix: resolve crash on login with empty password**
+> - **📝 docs: update README with new installation steps**
 
 <!-- prettier-ignore -->
 > [!CAUTION] 
@@ -151,9 +183,12 @@ This helps reviewers (and your future self) understand the purpose behind each c
 
 ### 2. 🧹 Maintain Code Consistency
 
-- **Indentation, naming, and organization** should match the existing code.
-- **Respect the project's chosen style**, even if it's not your preference.
-- If unsure, **mimic the patterns** you see in similar files.
+1. **Indentation, naming, and organization** should match the existing code.
+2. **Respect the project's chosen style**, even if it's not your preference.
+3. If unsure, **mimic the patterns** you see in similar files.
+
+> [!NOTE]
+> Consistent code makes collaboration smoother and reduces bugs. When in doubt, ask a maintainer or open a discussion before making large formatting changes!
 
 ### 3. 👓 Focus on Readability
 
@@ -168,7 +203,7 @@ When unsure how to structure something, check how similar features are implement
 > [!NOTE]
 > If you think there’s a better way to do something, propose it in a pull request or discussion — but don’t introduce a new pattern just for fun.
 
-### 4. 📝 Add Documentation Where Needed
+### 5. 📝 Add Documentation Where Needed
 
 If your code contains **non-obvious logic or important decisions**, add comments explaining "**why**" (not just "**what**").
 
@@ -189,15 +224,20 @@ Before submitting your pull request, please ensure you:
 
 ### 📝 Example Pull Request Structure
 
-#### ✨ Summary
+Use this as a reference for organizing your pull requests to keep them clear and easy to review.  
+Providing all sections helps maintainers and collaborators understand your changes efficiently.
 
-A brief explanation of what this PR does and why.
+#### Summary
 
-#### 🧪 How to Test
+Briefly describe what this PR does and the motivation behind it.  
+Focus on the purpose and the key changes introduced.
 
-Steps for maintainers or reviewers to test your changes.
+#### How to Test
 
-#### 🔗 Related Issues
+List step-by-step instructions for maintainers or reviewers to verify your changes.  
+Include any setup, commands, or test scenarios needed.
+
+#### Related Issues
 
 <!-- prettier-ignore -->
 > [!NOTE]
@@ -206,19 +246,21 @@ Steps for maintainers or reviewers to test your changes.
 
 <!-- prettier-ignore-end -->
 
-#### 💡 Additional Notes
+Link any related issues, discussions, or pull requests.  
+Use keywords like `Closes`, `Fixes`, or `Resolves` to automatically close them when merging.
 
-Anything else reviewers should know.
+#### Additional Notes
+
+Add any extra context, caveats, screenshots, or information that would help reviewers.  
+Mention known limitations or follow-ups if applicable.
 
 ---
+
+## ❤ Thank you for helping us improve this project!
+
+Your time, ideas, and effort are valued here.  
+If you have questions, open a discussion or reach out to the maintainers.
 
 ## 📜 License
 
 By contributing, you agree that your contributions will be licensed under the same license as the project (see the [LICENSE](LICENSE.md) file for details).
-
----
-
-### ❤ Thank you for helping us improve this project!
-
-Your time, ideas, and effort are valued here.  
-If you have questions, open a discussion or reach out to the maintainers.
