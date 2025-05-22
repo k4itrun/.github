@@ -1,0 +1,23 @@
+body:
+ - type: textarea
+   id: idea
+   attributes:
+    label: What would you like to see added or improved?
+    description: Briefly explain the new feature, enhancement, or change you'd like to suggest. This can be for any programming language, platform, library, or tool.
+    placeholder: 'Describe your idea or feature in a few sentences.'
+   validations:
+    required: true
+
+ - type: textarea
+   id: context
+   attributes:
+    label: Details, thoughts, or examples
+    description: |
+     Share any extra context, example use cases, rough sketches, links, or possible ways this could be implemented. Include any relevant scenarios, references to other projects/tools, screenshots, diagrams, or potential implementation approaches. The more details, the better!
+    placeholder: |
+     - Example scenarios or workflows
+     - References to other tools/projects
+     - Screenshots or diagrams
+     - Potential implementation approaches
+   validations:
+    required: false

@@ -1,0 +1,29 @@
+body:
+ - type: textarea
+   attributes:
+    label: Brief description of your question
+    description: Clearly describe what you need assistance with or what you're trying to achieve. Be as specific as possible so others can help you efficiently.
+    placeholder: "e.g., I'm having trouble configuring X, or I don't understand how to use Y."
+   validations:
+    required: true
+
+ - type: textarea
+   attributes:
+    label: Context & Details
+    description: |
+     Share any relevant code, error outputs, configuration details, or additional context that might help us understand your situation. This can include details for any language, framework, or environment.
+    placeholder: |
+     - Paste any error messages or logs here.
+     - Include code snippets (if relevant).
+     - Mention any related dependencies or versions.
+    render: js
+   validations:
+    required: false
+
+ - type: input
+   attributes:
+    label: Link to a minimal example (optional)
+    description: If available, share a link to a minimal reproduction (e.g., GitHub repo, CodeSandbox, StackBlitz, Gist, etc.) to help others quickly understand the problem.
+    placeholder: 'https://codesandbox.io/...'
+   validations:
+    required: false

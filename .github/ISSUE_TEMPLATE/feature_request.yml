@@ -1,0 +1,57 @@
+name: '✨ Feature request'
+description: 'Suggest a new feature or enhancement for any project, regardless of language or technology.'
+labels:
+ - 'enhancement'
+assignees:
+ - 'k4itrun'
+body:
+ - type: markdown
+   id: intro
+   attributes:
+    value: |
+     Thank you for taking the time to suggest a new feature or enhancement! Please provide as much detail as possible, including context and use cases, so we can best understand your idea. If you're interested in helping implement this feature, let us know!
+
+ - type: textarea
+   id: feature
+   attributes:
+    label: 'What feature or enhancement would you like to see?'
+    description: 'Clearly describe the feature, capability, or enhancement you are requesting. This can be for any kind of project, library, app, or tool.'
+    placeholder: 'e.g. Add dark mode support to the UI, support for multiple languages, add REST API endpoint, etc.'
+   validations:
+    required: true
+
+ - type: textarea
+   id: problem
+   attributes:
+    label: 'What problem does this feature solve?'
+    description: 'Explain what problem, pain point, or use case this feature would address. This can include developer experience, user needs, or compatibility issues.'
+    placeholder: 'e.g. Users often work in low-light environments and need dark mode. Developers want to automate workflow steps, etc.'
+   validations:
+    required: true
+
+ - type: textarea
+   id: solution
+   attributes:
+    label: 'Describe the proposed solution'
+    description: 'How do you imagine this feature working? Please provide as many details, diagrams, code snippets, or examples as possible, regardless of language or tech stack.'
+    placeholder: 'e.g. Add a toggle in the settings menu; create a new configuration option; provide a CLI flag, etc.'
+   validations:
+    required: true
+
+ - type: textarea
+   id: alternatives
+   attributes:
+    label: 'Have you considered any alternatives?'
+    description: 'Are there other approaches or prior art that could address the issue? Feel free to mention other tools, libraries, or workarounds you have tried.'
+    placeholder: 'e.g. Allow users to customize UI colors manually, use external plugins, etc.'
+   validations:
+    required: false
+
+ - type: textarea
+   id: additional-comments
+   attributes:
+    label: 'Additional comments or context'
+    description: "Is there anything else you'd like to add? Include references, links, mockups, or related issues if relevant."
+    placeholder: 'Paste links, mockups, related issues, or any extra details here.'
+   validations:
+    required: false
