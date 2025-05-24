@@ -1,0 +1,19 @@
+daysUntilStale: 60
+daysUntilClose: 7
+staleLabel: stale
+exemptLabels:
+ - pinned
+ - security
+ - important
+
+issues:
+ markComment: >
+  This issue has been inactive for a while and will be closed soon if there is no activity.
+ closeComment: >
+  Closing due to inactivity. If it is still relevant, comment to reopen it.
+
+pulls:
+ markComment: >
+  This pull request has been inactive for a while and will be closed soon if there is no activity.
+ closeComment: >
+  Closing this pull request due to inactivity.
