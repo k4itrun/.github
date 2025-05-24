@@ -1,8 +1,10 @@
 ![Header](https://github.com/k4itrun/.github/assets/103044629/92715974-a12e-4d2b-a8e9-bddcf227ba9f)
 
+---
+
 <!-- prettier-ignore -->
 > [!NOTE] 
-> **If you’re reading this, you’re already helping our community grow. Every contribution — big or small — matters. Please take a moment to review these guidelines for a smooth and rewarding experience.**
+> If you’re reading this, you’re already **helping our community grow**. Every contribution, whether **big or small**, matters. Please take a moment to review these **guidelines** for a **smooth and rewarding experience**.
 
 <!-- prettier-ignore-end -->
 
@@ -49,13 +51,11 @@
   </ol>
 </details>
 
----
-
 ## 🚀 Getting Started
 
 Jumping into a **new project** can seem daunting, but our process is straightforward and welcoming to contributors of all backgrounds and experience levels.
 
-### 1. 🍴 Fork and Clone
+### 1. 🔄 Fork and Clone
 
 First, head over to the original repository on GitHub and hit that **Fork** button. Think of it like making your own copy of grandma’s secret cookie recipe — you get to experiment without messing up the original masterpiece.
 
@@ -75,7 +75,7 @@ This pulls down all the project goodness right to your computer.
 Keep your fork up to date with the main project:
 
 ```bash
-git remote add upstream https://github.com/billoneta/this-project.git
+git remote add upstream https://github.com/k4itrun/this-project.git
 git remote show upstream
 ```
 
